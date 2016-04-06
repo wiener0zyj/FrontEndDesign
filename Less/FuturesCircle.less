@@ -1,0 +1,116 @@
+﻿html{
+    height:100%;
+    width:100%;
+}
+body {
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+    font: 400 1em/1.5 PingFang SC,Lantinghei SC,Helvetica Neue,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,sans;
+}
+p.chromeframe{text-align:center;}
+
+header[role=banner]{
+    div{
+        a{
+            display:block;
+            text-decoration:none;
+
+            img#img_Banner{
+                width:100%;
+            }
+        }
+    }
+}
+
+main[role=main]{
+    width:100%;
+
+    div.tabdiv_f{
+        width:100%;
+        height:50px;
+
+        div.topicdiv{
+            width:50%;
+            height:100%;
+            float:left;
+
+            a.a_drop{
+                height:100%;
+                line-height:50px;
+                text-decoration:none;
+                display:block;
+                text-align:center;
+                font-size:18px;
+                color:gray; 
+            }
+        } 
+
+        div.a_droped{
+            border-bottom: solid 2px rgb(40,154,242);
+
+            a.a_drop{
+                color:rgb(40,154,242);
+            }
+        }
+    }
+
+    div.contentdiv_s{
+        div.innercontentdiv_s{
+            ul#ul_hottopic{
+                margin:20px 10px;
+                padding:0px;
+                list-style:none;
+
+                li.li_singlehottopic{
+                    list-style:none;
+                    height:80px;
+                    background-color: rgb(255,150,72);
+                    border-radius: 14px;
+
+                    a.a_singlehottopic{
+                        display:block;
+                        height:100%;
+                        text-decoration:none;
+                        color:white;
+
+                        div.div_singlehottopic{
+                            height:80px;
+
+                            div.left_icondiv{
+                                float:left;
+                                width:90px;
+                                height:100%;
+                                text-align: center;
+                                line-height: 80px;
+
+                                img{
+                                    width:60px;
+                                }
+                            }
+                            div.right_contentdiv{
+                                width:auto;
+                                margin-left:90px;
+                                height:100%;
+                                padding:15px 0px;
+
+                                h3{
+                                    margin:0px;
+                                    overflow:hidden;
+                                }
+                                p{
+                                    margin-top:6px;
+                                    overflow:hidden;
+                                    color:#F5FFF6;
+                                    font-weight:100;
+                                    font-size:15px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
